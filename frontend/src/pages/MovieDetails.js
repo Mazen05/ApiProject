@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import './MovieDetails.css';  // Import du fichier CSS
+import './MovieDetails.css';
 
 function MovieDetails() {
     const { movieId } = useParams();

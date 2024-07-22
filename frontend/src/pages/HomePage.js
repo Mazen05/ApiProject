@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './HomePage.css';  // Assurez-vous que ce fichier CSS existe
+import './HomePage.css';
 
 function HomePage() {
     const [movies, setMovies] = useState([]);
